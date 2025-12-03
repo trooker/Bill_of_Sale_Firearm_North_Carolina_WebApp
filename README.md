@@ -9,5 +9,5 @@ Mode 3> same as Mode 2 plus Mode 3 allows the Seller/Buyer signatures to be capt
 Mode4> same as Mode 3, plus it gives the Seller/Buyer opportunity to email to the selected addressees the entire raw data collected, and electonic rendering of the two signature blocks, presented drivers licenses, conceal cary handgun permits, a PDF of the entire Mode 3 version, and ancillary documents supporting the Firearm transaction.
 
 # Disclaimer:
-The authors of this document are not legal professional.  They have read the current North Carolina statues regarding the sale of Firearms between private citizens in North Carolina.
+The authors of this document are not legal professionals.  They have read the current North Carolina statues regarding the sale of Firearms between private citizens in North Carolina.  See the Disclaimer section within the Bill_of_Sale_Firearm_NC_991-995.html.
 
