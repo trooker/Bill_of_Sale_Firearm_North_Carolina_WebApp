@@ -1,0 +1,57 @@
+/**
+ * 
+ **/
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  /* display: flex; */
+  /* flex-direction: column;  */
+  /* align-items: center; */
+}
+
+#signatureForm {
+  /* display: flex; */
+  /* 25101328    flex-direction: column;   */
+  gap: 2rem;
+}
+
+.signature-container {
+  /*   display: flex;  */
+  /* 25101328 flex-direction: column; */
+  /* */align-items: center;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+canvas {
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  touch-action: none; /* Prevents scrolling on touch devices */
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.clear-button {
+  background-color: #e74c3c;
+}
+
+#finalizedButton {
+  background-color: #2ecc71;
+  width: 30%;
+}
+
+#finalizedButton:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}

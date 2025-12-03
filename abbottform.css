@@ -1,0 +1,162 @@
+/* Copyright &copy 1988-2025 by Abbott Analytical Products. All Rights Reserved. */
+
+/*See aacanvas989_999_2btnSignatureBlock.html for  attribute 
+Begin attrribute */
+
+.signature-block {
+    font-family: sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+canvas {
+    cursor: crosshair;
+    background-color: #f9f9f9;
+}
+
+.signature-controls {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clearButton {
+    background-color: #f44336;
+    color: white;
+}
+
+#saveButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#savedSignatureOutput {
+    margin-top: 20px;
+    text-align: center;
+}
+/*End attrribute */
+
+/* appeared as .anpTextInput in October timeframe
+ * 
+ * Appeared as in ./001_archive/251019_bob/Bill_Of_Sale_Firearm_NC_991__999_signature_js.html:671:
+  * <!-- <INPUT TYPE="text" NAME="Q010.01.01" class="anpTextInput">  -->
+
+ * */
+.aapTextInput{
+        width: 360px;
+        height: 60px;
+}
+
+
+.grayed-out-div{
+   opacity: 0.6;
+   color: #888;
+   background-color: #eee
+   pointer-events: none; /* Optional: to prevent interactions */
+}
+
+div.level1{
+    text-indent: 50px;
+}
+div.level2{
+    text-indent: 100px;
+}
+div.level3{
+    text-indent: 150px;
+}
+div.level4{
+    text-indent: 250px;
+}
+div.level5{
+    text-indent: 300px;
+}
+
+.boldtable, .boldtable td ,boldtable th{
+    font-family: sans-serif;   
+    font-size: 12pt;   
+    color: black;   
+    background-color: lightgray; 
+    border: 1px solid black;
+    }
+.boldtable th {
+    font-family: sans-serif;   
+    font-size: 12pt;   
+    color: black;   
+    background-color: gray; 
+    border: 1px solid black;
+    }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  max-width: 500px; /* Maximum width */
+
+ /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top:  45%;
+  left: 38%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  max-width: 500px; /* Maximum width */
+
+}
+
+:root {  
+	--primary-color: #000;
+}
+body { 
+	font-family: Arial, Helvetica, sans-serif;  
+	line-height: 1.4;  
+	padding: 1rem;
+}
+.signature-pad-form {  
+	max-width: 300px;  
+	margin: 0 auto;
+}.signature-pad {  
+	cursor: url(pen.png) 1 26, pointer;  
+	border: 2px solid var(--primary-color); 
+	border-radius: 4px;
+}
+.clear-button {  
+	color: var(--primary-color);
+}
+.submit-button {  
+	width: 100%;  
+	background-color: var(--primary-color);  
+	border: none;  
+	padding: 0.5rem 1rem;  
+	color: #fff;  
+	cursor: pointer;  
+	margin-top: 2rem;
+}
+
+@media (pointer: coarse) {  
+	body {    
+		overflow: hidden; /* Needed to prevent the vertical scroll on touch devices */ 
+	}
+}
+
+
