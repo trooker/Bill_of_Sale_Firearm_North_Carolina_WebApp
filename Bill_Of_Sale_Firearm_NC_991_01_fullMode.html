@@ -1,0 +1,795 @@
+<!-- 
+Copyright &copy 1988-2026 by Abbott Avant Products. All Rights Reserved.
+260217:	Correct typos and grammar in NICS section.
+260208:	Separated in to *_991_01, 02, 03, 04 for fullModes-Web, paper, support, paper support
+			  May not need paper support.
+260207:   Break into Support, Paper Only, FullMode
+260206:   Added retailer's role on FFL Transaction phase.
+              Updated revision number to 993
+              Update copyright date
+260204:  Add clauses for FFL Transaction regarding this specific transaction described in BOS.  
+             Reflect name change of AAP from Abbott Analytical Products to Abbbott Avant Products
+             Update copyright year.
+             Created short version of 994a for specific sale of MK23
+251128: Iniital release
+-->
+
+
+
+<html> 
+<head>
+<TITLE>991 Bill of Sale for Firearm North Carolina</TITLE>
+<META NAME="description" content="Bill of Sale for Firearms in North Carolina">
+<META NAME="keywords" content="">
+
+  <link rel="stylesheet" href="abbottform.css">
+  <link rel="stylesheet" href="spike_001.css">
+
+</head>
+<body>
+<BODY BGCOLOR="#D3D3D3" TEXT="#000000">
+
+
+<center>
+<h1>Bill Of Sale For Firearm In <br>North Carolina</h1>
+
+
+<font size=-1>
+Copyright &copy 1988-2026 by
+<font color="FF0000"><a href="http://abbottanp.com">Abbott Avant Products</a></font>. All Rights Reserved.
+</font>
+<br>
+</center>
+
+
+<center>
+<div class = "tooltip" width = "150%">
+<button onclick="aapDateTimeFunction()">Click Date-Time Stamp</button>
+<span class="tooltiptext">Click button to display a date-time stamp embedded in the form.</span>
+</div>
+<p  id= "dday"></p>
+</center>
+
+
+<!--- Begin Full Copy Cut Here --->
+<h2>Hot Links To Helpful Topics</h2>
+<div class="tooltip"  width=' 95%'>
+<b><a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#bearArms" target="_blank">Bearing Arms in North Carolina</a></b>
+<span class="tooltiptext">A brief introduction to NC Firearm ownership responsibilities.</span> 
+</div>
+<div class="tooltip"  width=' 95%'>
+<b><a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#intendedUse" target="_blank">Intended Use</a></b>
+<span class="tooltiptext">With attribution this "work" can be used, copied, modified to document 
+a private sale between two NC citizens.</span> 
+</div>
+<div class="tooltip"  width=' 95%'>
+<b><a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#modesOfUse" target="_blank">Modes of Use</a></b>
+<span class="tooltiptext">Briefly explains the four modes in which this artifact can be used off-line, on-line, with emails, etc.
+</span> 
+</div>
+<div class="tooltip"  width=' 95%'>
+<b><a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#bosObjects" target="_blank">Bill Of Sale Objects</a></b>
+<span class="tooltiptext">Help with terms and the form's featurs like radio buttons, dropdown lists, etc.</span> 
+</div>
+<div class="tooltip"  width=' 95%'>
+<b><a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#basicRules" target="_blank">Basic Rules of Useage</a></b>
+<span class="tooltiptext">Brief description of the process steps that should be followed in the collection of data and supporting documents.</span> 
+</div>
+<div class="tooltip"  width='95%'>
+<b><a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#guidance" target="_blank">Helpful Guidance for Finalization Issues</a></b>
+<span class="tooltiptext">A set of steps to follow when things bump in the night and the boat seems to be sinking.</span> 
+</div>
+<div class="tooltip"  width=' 95%'>
+<b><a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#disclaimers" target="_blank">Disclaimers</a></b>
+<span class="tooltiptext">A list of consideration the buyer/seller should consider when using this application.</span> 
+</div>
+<div class="tooltip"  width='5%'>
+<b><a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#nextStep" target="_blank">What To Do Next</a></b>
+<span class="tooltiptext">A checklist is provided to help close the purchase effort in a satisfactory state.</span> 
+</div>
+<br>
+<hr>
+<!--- End Full Copy Cut Here --->
+<FORM id="signatureForm"   method="post" action="mailto:abiriba_rg@abbottanp.com?subject=991_Bill-Of-Sale_Feedback_Form&amp;body=
+Please attach *.PDF files or image files:%0D%0A
+Seller/Buyer%20NC%20Driver%20Licenses,%0D%0A
+NC%20Conceal%20Carry%20Handgun%20permits%20(required%20for%20handguns%20only),%0D%0A
+Bill-Of_Sale-Firearm.pdf%20you%20just%20saved,%0D%0A
+PDF%20or%20image%20artifacts,%0D%0A%20
+ancillary%20artifacts,%20etc.%0D%0A
+%0D%0A
+Then%20add%20any%20email%20addressees%20needed.
+%0D%0A%0D%0A
+Bill%20of%20Sale%20Form%20inputs%20follow:"
+ enctype="text/plain">  
+
+
+
+
+
+<h2>DOCUMENT AUTHENTICATION</h2>
+<!-- Q001 -->
+DATE OF SALE TRANSACTION: <INPUT TYPE="text" NAME=nowis id = "dday" /><br>
+<!-- Q002 -->
+Seller has submitted a valid NC Driver's License for photo record:<input type="radio" name="Q002.01" value="yes" />Yes   
+<input type="radio" name="Q002.01" value="no" />No<br> 
+Seller has submitted a valid NC Conceal Carry Handgun permit for photo record:
+<input type="radio" name="Q002.02" value="yes" />Yes  <input type="radio" name="Q002.02" value="no" />No<br> 
+Seller is representing a business entity for the purpose of NC tax revenue:<input type="radio" name="Q002.03" value="yes" />Yes   
+<input type="radio" name="Q002.03" value="no" />No<br> 
+Buyer has submitted a valid NC Driver's License for photo record: 
+<input type="radio" name="Q002.04" value="yes" />Yes   
+<input type="radio" name="Q002.04" value="no" />No<br> 
+Buyer has submitted a valid NC Conceal Carry Handgun permit for photo record:<input type="radio" name="Q002.05" value="yes" />Yes   
+<input type="radio" name="Q002.05" value="no" />No<br> 
+<br>
+
+<h2>IDENTIFICATION OF PARTICIPANTS IN TRANSACTION </h2>
+<!-- Q003  -->
+<b>Seller's Information:</b> as it appears on NC License
+<li> NC Driver's License Number: 
+<INPUT TYPE="text" NAME="Q003.01" > Expiration Date: <INPUT TYPE="text" NAME="Q003.02" ><br>
+<li> First Name: 
+<INPUT TYPE="text" NAME="Q003.03" > Last Name: <INPUT TYPE="text" NAME="Q003.04" ><br>
+<li> Street Address <INPUT TYPE="text" NAME="Q003.05" ><br>
+<li> City: <INPUT TYPE="text" NAME="Q003.06" ><br>
+<li> State/Providence:  <INPUT TYPE="text" NAME="Q003.07" ><br>
+<li> Country:  <INPUT TYPE="text" NAME="Q003.08" >  Zip/Postal Code:<INPUT TYPE="text" NAME="Q003.09" > <br>
+<br><b>Conceal Carry Handgun Card (CCH)</b> and description: (Leave blank if not presenting an NC CCH)
+<li> NC CCH Issuing County: 
+<INPUT TYPE="text" NAME="Q003.10" > Expire Date: <INPUT TYPE="text" NAME="Q003.11" ><br>
+<br><b>Seller's Declared Business Entity</b> and description: (Leave blank if not representing a business)
+<li> Business Name: 
+<div class="tooltip">
+<INPUT TYPE="text" NAME="Q003.12" > 
+
+<label for="business">Select type business:</label>
+<select id="bizz" name="bizz.com">
+  <option value="blank">Non-applicable</option>
+  <option value="sole">Sole proprietary</option>
+  <option value="partnr">Partnership</option>
+  <option value="dba">DBA: Doing business as</option>
+  <option value="llc">LLC: Limited liability corporation</option>
+  <option value="inc">INC: Incorporated</option>
+  <option value="other">Other</option>
+</select> 
+</div>
+
+
+<br>
+<!-- Q004  -->
+<b>Buyer's Information:</b> as it appears on NC License
+<li> NC Driver's License Number: 
+<INPUT TYPE="text" NAME="Q004.01" > Expiration Date: <INPUT TYPE="text" NAME="Q004.02" ><br>
+<li> First Name: 
+<INPUT TYPE="text" NAME="Q004.03" > Last Name: <INPUT TYPE="text" NAME="Q004.04" ><br>
+<li> Street Address <INPUT TYPE="text" NAME="Q004.05" ><br>
+<li> City: <INPUT TYPE="text" NAME="Q004.06" ><br>
+<li> State/Providence:  <INPUT TYPE="text" NAME="Q004.07" ><br>
+<li> Country:  <INPUT TYPE="text" NAME="Q004.08" >  Zip/Postal Code:<INPUT TYPE="text" NAME="Q004.09" > <br>
+<br><b>Conceal Carry Handgun Card (CCH)</b> and description: (Leave blank if not presenting an NC CCH)
+<li> NC CCH Issuing County: 
+<INPUT TYPE="text" NAME="Q004.11" > Expire Date: <INPUT TYPE="text" NAME="Q004.12" ><br>
+<br>
+
+
+<H2> DETAILS OF ITEM BEING SOLD:</h2>
+<!-- Q005  -->
+<li>
+ <label for="firearm">Select type of Item:</label>
+<select id="guntype" name="itemtype">
+  <option value="blank"></option>
+  <option value="pistol">Pistol</option>
+  <option value="revolver">Revolver</option>
+  <option value="handgun">Other type of Handgun</option>
+  <option value="rifle">Rifle</option>
+  <option value="shotgun">Shotgun</option>
+  <option value="muzzleLdr">Muzzle Loader</option>
+  <option value="longgun">Other type of Longgun</option>
+  <option value="fflLicense">FFL Special license required gun</option>
+  <option value="other">Item other than a firearm</option>
+</select> 
+<!--<input type="submit"> -->
+</li>
+<li> Make: 
+<INPUT TYPE="text" NAME="Q005.01" > Model: <INPUT TYPE="text" NAME="Q005.02" ><br>
+
+<li> Caliber: 
+<INPUT TYPE="text" NAME="Q005.03" > Serial Number: <INPUT TYPE="text" NAME="Q005.04" ><br>
+
+Item Being Sold shall be termed “Firearm” from this point forward.
+<h2>PURCHASE</h2>
+The Seller and Buyer agree to enter into a contract relationship where each receives an agreeable outcome.  
+The Seller delivers the firearm to the buyer and assumes responsibility for customary fees and sales taxes.  
+The Buyer tenders the base purchase price and assumes responsibility for any/all associated expenses and customary fees 
+as described in the following table.
+<br>
+<br><b>Seller and Buyer affirm agreement</b> with purchase price, purchase transaction, and shipping.  
+Radio buttons are grouped allowing only one selection of option.   
+Checkboxes are used for affirming acceptance of a single condition.<br>
+<!-- Q006  -->
+<center>
+<table border=1 valign=top align=center cellpadding=2 cellspacing=2>
+<tr bgcolor=black valign=top>
+<td width="10%" align=center><font color=white>Seller</font>
+<td width="10%" align=center><font color=white>Buyer</font>
+<td width="80%" align=center><font color=white>Purchase of Condition</font>
+<tr valign=top>
+
+<td width = "10%">
+<input type="checkbox" name="Q006.01" value="yes" />Agree
+</td>
+<td width = "10%">
+<input type="checkbox" name="Q006.02" value="yes" />Agree
+</td>
+<td width = "80%">
+	Base Purchase Price of Firearm: <INPUT TYPE="text" NAME="Q006.03" >
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+
+</td>
+<td width = "10%">
+</td>
+<td width = "80%" align=center>
+	<b>Select From Group: Purchase Transaction Options</b>
+</td>
+</tr>
+
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q006.04.1" value="cash" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q006.04.2" value="cash" />
+</td>
+<td width = "80%">
+Cash upon delivery of the Firearm to the Buyer by the Seller
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q006.04.1" value="credit" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q006.04.2" value="credit" />
+</td>	
+<td width = "80%">
+	Credit purchase at Point of Sale validation of transaction followed by delivery by Seller of Firearm.
+	<br>PayPal transaction: <input type="radio" name="Q006.04.3" value="paypal" />
+	<br>GunTab transaction: <input type="radio" name="Q006.04.3" value="guntab" />
+	<br><input type="radio" name="Q006.04.3" value="other" />Other credit transaction (explain):<INPUT TYPE="text" NAME="Q006.04.3" ><br>
+Use an additional sheet as necessary.
+	
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q006.04.1" value="gift" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q006.04.2" value="gift" />
+</td>
+<td width = "80%">
+Seller presents Buyer with Firearm as a gift with no funds exchanged.
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q006.04.1" value="trade" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q006.04.2" value="trade" />
+</td>
+<td width = "80%">
+Seller delivers the Firearm to Buyer in exchange for the following:  <INPUT TYPE="text" NAME="Q006.04.5" ><br>
+Use an additional sheet as necessary.
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%"></td>
+<td width = "10%"></td>
+<td width = "80%" align=center>End of Group: Purchase Transaction Options</td>
+</tr>
+
+<tr valign=top>
+<td width = "10%">
+<input type="checkbox" name="Q006.05.1" value="yes" />Agree
+</td>
+<td width = "10%">
+<input type="checkbox" name="Q006.05.2" value="yes" />Agree
+</td>
+<td width = "80%">
+<input type="radio" name="Q006.05.3" value="noship" />   
+Shipping is not required (assumed) -Or-
+<br><input type="radio" name="Q006.05.3" value="ship" />Seller ships Firearm to Buyer via FFL to FFL with Buyer responsible for all expenses, fees, etc.:  <INPUT TYPE="text" NAME="Q006.05.4" ><br>
+Use an additional sheet as necessary.
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="checkbox" name="Q006.06.1" value="adder" />Agree
+</td>
+<td width = "10%">
+<input type="checkbox" name="Q006.06.2" value="adder" />Agree
+</td>
+<td width = "80%">
+	We agree to the Base Purchase Price of Firearm, <b>BUT</b> Transaction Options and/or Shipping details require further documentation:  See <INPUT TYPE="text" NAME="Q006.06.3" > addendum to this html page. OR enter NA
+</td>
+</tr>
+
+</table>
+</center>
+	
+
+
+
+<h2>SELLER’S DISCLOSURE AFFIRMATION</h2>
+<b>Seller affirms "True" or "False" </b>to each of the following conditions:<br>
+<!-- Q007  -->
+<center>
+<table border=1 valign=top align=center cellpadding=2 cellspacing=2>
+<tr bgcolor=black valign=top>
+<b></b><td width="10%" align=center><font color=white>True</font>
+<td width="10%" align=center><font color=white>False</font>
+<td width="80%" align=center><font color=white>Seller Must Afirm Each Statement of Condition as True or False</font></b>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q007.01" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q007.01" value="no" />
+</td>	
+<td width = "80%">
+	Seller has verified that the Firearm details are correct
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q007.02" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q007.02" value="no" />
+</td>	
+<td width = "80%">
+	Seller acknowledges the Firearm’s serial number is legible
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q007.03" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q007.03" value="no" />
+</td>	
+<td width = "80%">
+Seller acknowledges being the lawful owner of the Firearm
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q007.04" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q007.04" value="no" />
+</td>	
+<td width = "80%">
+Seller claims to have the right to sell the Firearm
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q007.05" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q007.05" value="no" />
+</td>	
+<td width = "80%">
+Seller has no knowledge of any defects in the Firearm beyond those listed below: 
+<br> Normal wear and tear, plus <INPUT TYPE="text" NAME="Q007.05" > addendum to this html page.
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q007.06" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q007.06" value="no" />
+</td>	
+<td width = "80%">
+Seller affirms the Firearm is fit to be used for its intended purpose
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q007.07" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q007.07" value="no" />
+</td>	
+<td width = "80%">
+Seller has never used the Firearm in a manner of questionable employment or in an illegal activity
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q007.08" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q007.08" value="no" />
+</td>	
+<td width = "80%">
+Seller assumes no responsibility after the transfer of ownership has taken place
+</td>
+</tr>
+</table>
+</center>
+
+<hr>
+<h2>BUYER’S DISCLOSURE AFFIRMATION</h2>
+Seller waives further buyer disclosure if Seller can affirm positively that one of the two conditions found in the following table is True:
+<!-- Q008  -->
+<br>
+<table border=1 valign=top align=center cellpadding=2 cellspacing=2>
+<tr bgcolor=black valign=top>
+<td width="10%" align=center><font color=white>True</font>
+<td width="10%" align=center><font color=white>False</font>
+<td width="80%" align=center><font color=white>Statement of Condition</font>
+
+<tr valign=top>
+<td width = "20%">
+<input type="radio" name="Q008.01" value="yes" />Seller Affirms
+</td>
+<td width = "20%">
+<input type="radio" name="Q008.01" value="no" />Seller Affirms
+</td>	
+<td width = "60%">
+Buyer has presented a valid NC Driver's License and NC CCH to the Seller   
+<ul>
+<li>A valid NC CCH (Conceal Carry Handgun) permit and supporting valid 
+NC Driver's license has been displayed to the Seller by the Buyer.</li>
+<b>--OR--</b>
+<li>The Seller presented the Firearm to the following FFL Retailer for secure login:
+<ul>
+<li>
+FFL Retailer: <INPUT TYPE="text" NAME="FFL.05" ><br>
+</li>
+<li>
+FFL Retailer Log Entry of Receipt of Firearm:  <INPUT TYPE="text" NAME="FFL.06" ><br>
+</li>
+
+
+<li>
+Buyer successfully has received "Approval"  from the NICS under the FFL Transaction Record (Form 4473) for the 
+specific change in ownership of the firearm described the Purchase Transaction Options section within the last thirty days.  
+</li>
+<ul>
+<li>
+Date of NICS  Approval Decision: <INPUT TYPE="text" NAME="FFL.01" ><br>
+</li>
+<li> 
+NICS No: <INPUT TYPE="text" NAME="FFL.02" ><br>
+A receipt from the FFL Firearms Retailer documenting the NICS Transfer Record has been a fixed to this Bill-Of-Sale artifact.
+<br><b>Yes:</b><input type="radio" name="FFL.03" value="yes" />  <b>No:</b><input type="radio" name="FFL.04" value="no" />
+
+</li>
+</ul>
+</li>
+</ul> 
+</td>
+</tr>
+</table>
+
+
+
+<br>
+<!-- Q009  -->
+If the Seller's response above was False, the Buyer must now affirm "True" or "False" to each of the following statements:<br>
+<center>
+<table border=1 valign=top align=center cellpadding=2 cellspacing=2>
+<tr bgcolor=black valign=top>
+<td width="10%" align=center><font color=white>True</font>
+<td width="10%" align=center><font color=white>False</font>
+<td width="80%" align=center><font color=white>Buyer Must Afirm Each of These Statements to Be True of False</font>
+
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.01" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.01" value="no" />
+</td>	
+<td width = "80%">
+Buyer is under the legal age to own a Firearm (18 for long gun and 21 for handgun)
+</td>
+</tr>
+
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.02" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.02" value="no" />
+</td>	
+<td width = "80%">
+<div class="tooltip" width = '150%'>
+
+Buyer is unable to establish NC citizenship status 
+<span class="tooltiptext">using NC voter registration, US militray ID, US Deptartmernt of Veteran Affairs 
+ID/Medical ID, jury summons, lapsed NC CCH, prior FFL approved firearm purchase receipt from a FFL dealer within the last 
+year, etc. </span> 
+</div>
+
+</td>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.03" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.03" value="no" />
+</td>	
+<td width = "80%">
+<div class=tooltip width="100%">
+Buyer is not a citizen of the United states, is unable to show a USA passport, or is not registered to vote in North Carolina
+<span class="tooltiptext">A claim of US citizenship may be documented by proof of a recent FFL approved gun purchse, USA passport, a NC voter id matched to a current NC Driver's License</span>
+</div>
+</td>
+</tr>
+
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.04" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.04" value="no" />
+</td>	
+<td width = "80%">
+Buyer is currently under indictment in at least one jurisdiction for a crime or has been convicted in at least one jurisdiction of a crime
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.05" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.05" value="no" />
+</td>	
+<td width = "80%">
+Buyer is a fugitive or has at least one outstanding warrants
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.06" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.06" value="no" />
+</td>	
+<td width = "80%">
+Buyer is an unlawful user of or addicted to any controlled substance
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.07" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.07" value="no" />
+</td>	
+<td width = "80%">
+Buyer has been adjudicate as having at least one mental defective or has been committed for treatment of at least one mental defect to a mental institution
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.08" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.08" value="no" />
+</td>	
+<td width = "80%">
+Buyer is currently under outpatient psychiatric treatment and/or therapy or has been anytime within the last ten years under mental 
+protocol/treatment in accordance with the current SMD (Diagnostic and Statistical Manual of Mental Disorders by American Psychiatric Association )
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.09" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.09" value="no" />
+</td>	
+<td width = "80%">
+Buyer is an alien illegally or unlawfully in the United states or an alien admitted to the United states under a non-immigrant visa
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.10" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.10" value="no" />
+</td>	
+<td width = "80%">
+Buyer has been discharged from the Armed Forces under dishonorable conditions
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.11" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.11" value="no" />
+</td>	
+<td width = "80%">
+Buyer is subject to at least one court order that restrains the buyer from owning a Firearm
+</td>
+</tr>
+
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.12" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.12" value="no" />
+</td>	
+<td width = "80%">
+Buyer has been convicted of at least one misdemeanor crime of domestic violence
+</td>
+</tr>
+
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.13" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.13" value="no" />
+</td>	
+<td width = "80%">
+Buyer is a person prohibited under any State or Federal law from purchasing a Firearm.
+</td>
+</tr>
+
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.14" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.14" value="no" />
+</td>	
+<td width = "80%">
+Buyer is purchasing this Firearm fraudulently as an agent for resale, quick sale, straw sale, straw purchase, or nominee purchase to another individual for any reason
+</td>
+</tr>
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.15" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.15" value="no" />
+</td>	
+<td width = "80%">
+The Buyer intends to use this Firearm in an unlawful, violent, criminal manner, criminal conspiracy, or criminal enterprise.
+</td>
+</tr>
+
+<tr valign=top>
+<td width = "10%">
+<input type="radio" name="Q009.16" value="yes" />
+</td>
+<td width = "10%">
+<input type="radio" name="Q009.16" value="no" />
+</td>	
+<td width = "80%">
+The Buyer knows of at least one reason the Buyer should not possess a Firearm
+</td>
+</tr>
+
+</table>
+</center>
+
+
+<!-- -->
+<h2>NO WARRANTY</h2>
+The undersigned Seller affirms that the above information about the Firearm is accurate
+<br>to the best of the Seller's knowledge. The undersigned Buyer accepts this bill of sale
+<br>and understands that the above Firearm is sold on an “as is condition basis with no
+<br>guarantees or warranties, either expressed or implied.
+
+<h2>ADJUDICATION OF ISSUES ARISING FROM THIS FIREARM SALE</h2>
+Any need for adjudication arising from the sale of this firearm will be brought before the Seller's County Small Claims Court 
+according to North Carolina law and practices.  The individual raising the issue will be responsible for court filing fees.  Court cost
+Further responsibilities and findings may be assigned by the magistrate at the conclusion of the small claims hearing.  
+<br>
+<hr>
+<center>
+
+<div class = "tooltip" width = "150%">
+<h2>--SIGNATURE BLOCK--</h2>
+</center>
+<hr>
+<!-- Q010  -->
+<center>
+	
+<table border=1 valign=top align=center cellpadding=2 cellspacing=2>
+<tr bgcolor=black valign=top>
+<td width="50%" align=center><font color=white>Seller</font>
+<td width="50%" align=center><font color=white>Buyer</font>
+
+<tr valign=top>
+<td width = "50%">
+My signature given further below affirms:
+<br>1> To my knowledge all of my affirmations and information present above are proper, correct and non-fraudulent.  
+<br>2> To the best of my knowledge I am satisfied with the Buyer's affirmations and information presented in this bill-of-sale.
+<br>3> My signature is provided without hesitation. 
+</td>
+<td width = "50%">
+My signature given further below affirms:
+<br>1> To my knowledge all of my affirmations and information present above are proper, correct and non-fraudulent.  
+<br>2> To the best of my knowledge I am satisfied with the Seller's affirmations and information presented in this bill-of-sale.
+<br>3> My signature is provided without hesitation. 
+</td>	
+</tr>
+<tr valign=top>
+<td width = "50%">
+Seller's Signature: (As it appears on NC Driver's License) 
+<center>
+
+    <div class="signature-container">
+      <h2>Seller Affirmation Signature</h2>
+      <canvas id="signatureCanvasSeller" width="400" height="200"></canvas>
+      <br><button type="button" class="clear-button" data-canvas-id="signatureCanvasSeller">Clear</button>
+      <input type="hidden" name="signatureSeller" id="signatureSeller">
+    </div>
+<br>Today's Date: 
+<INPUT TYPE="text" NAME="Q010.01.02" ><br><br>  
+</center>
+</td>
+<td width = "50%">
+Buyer's Signature: (As it appears on NC Driver's License) 
+<center>
+    <div class="signature-container">
+      <h2>Buyer's Affirmation Signature</h2>
+      <canvas id="signatureCanvasBuyer" width="400" height="200"></canvas>
+      <br><button type="button" class="clear-button" data-canvas-id="signatureCanvasBuyer">Clear</button>
+      <input type="hidden" name="signatureBuyer" id="signatureBuyer">
+    </div>
+<br>Today's Date: <INPUT TYPE="text" NAME="Q010.02.02" ><br><br>
+</center>
+</td>	
+</tr>
+
+</table>
+</center>
+    
+<center>
+<A NAME="goPDF"><b>Approaching Finialization for Bill of Sale</b>
+<br>
+<div class="tooltip"  width=' 95%'>
+<a  href="Bill_Of_Sale_Firearm_NC_991_03_support.html#guidance" target="_blank">Click Here</a> when things go bump in the night
+<span class="tooltiptext">If something causes a verification issue.</span> 
+</div>
+<br>  
+
+    <button type="submit" id="finalizedButton" disabled>Finalize and Submit</button>
+  </form>
+
+</center>
+<br>
+
+<hr>
+
+<address>
+Please send  comments or questions using <a href="mailto:luzzo@abbottanp.com" >e-mail</a>, voice telephone at 919-846-7705.  (Last update: February 9, 2026  luz)
+</ADDRESS><P>
+
+  <script src="aapFirearmForm_991.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.0.0/dist/signature_pad.umd.min.js"></script>  
+  <script src="ai_contribute_spike_001.js"></script>
+
+</body>
+</html>
